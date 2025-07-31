@@ -1,1 +1,17 @@
+algoritmo "pratica 7"
+var
 
+   FRASE:caractere
+   RESULTADO: caractere
+
+inicio
+   FRASE <- "Há mais brilhos em nossos olhos que estrelas no céu"
+
+
+   //no exemplo abaixo a função COPIA vai ler a partir da posição do
+   //9º caractere uma sequência de 7 caracteres.
+   RESULTADO <- Copia(FRASE, 9, 7)
+
+   escreva(RESULTADO)
+
+fimalgoritmo
