@@ -1,0 +1,22 @@
+algoritmo "pratica 3"
+
+var
+   //declarado a variável como CARACTERE para texto comum
+   PALAVRA:caractere
+
+   //declarado variável de RESULTADO como um número inteiro
+   RESULTADO:inteiro
+
+inicio
+
+   //atribuído a string 1000 a variável PALAVRA
+   PALAVRA<- "1000"
+
+
+   //declarado uma função com nome CARACPNUM para somar
+   //string (1000) da variável PALAVRA +2000
+   RESULTADO <- Caracpnum(PALAVRA) + 2000
+
+   escreva (RESULTADO)
+
+   fimalgoritmo
