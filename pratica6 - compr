@@ -1,1 +1,14 @@
+algoritmo "pratica 6"
+var
+FRASE:caractere
+RESULTADO:inteiro
 
+inicio
+
+FRASE <- "Há mais brilhos em nossos olhos que estrelas no céu"
+
+RESULTADO<- compr(FRASE)
+
+escreva(RESULTADO)
+
+fimalgoritmo
