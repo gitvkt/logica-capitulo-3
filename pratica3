@@ -1,0 +1,16 @@
+algoritmo "pratica 3"
+
+var
+   NOME:caractere
+
+inicio
+    //faltou incluir string para instrução em texto
+   //escreva ("Por favor, digite seu nome: ")
+   leia (NOME)
+
+   NOME <- ("Sr. " + NOME)
+   
+   //poderia ser adicionado string com informação em texto ex.:
+   //escreva ("Seu nome é, " NOME)
+   escreva (NOME)
+fimalgoritmo
