@@ -1,0 +1,12 @@
+algoritmo "Pratica 5"
+var
+   NUMERO:inteiro
+   RESULTADO:caractere
+
+inicio
+   NUMERO<-1000
+   RESULTADO<-Numpcarac(NUMERO) + " reais"
+   
+   escreva (RESULTADO)
+
+fimalgoritmo
