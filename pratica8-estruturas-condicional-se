@@ -1,0 +1,35 @@
+algoritmo "Pratica 8"
+
+var
+   A,B:inteiro
+
+inicio
+
+   leia (A,B)
+   se A>B então
+      escreva (B,A)
+   senão
+      escreva (A,B)
+   fimse
+
+fimalgoritmo
+
+
+//exemplo 2
+algoritmo "Pratica 8"
+var
+   A,B:inteiro
+
+inicio
+
+   escreva("Digite o valor de A ")
+   leia(A)
+   escreva("Digite o valor de B ")
+   leia(B)
+   se A>B então
+      escreva(B,A)
+   senão
+      escreva(A,B)
+   fimse
+
+fimalgoritmo
