@@ -1,0 +1,37 @@
+algoritmo "pratica 9"
+var
+
+   A,B,C:inteiro
+
+inicio
+   leia (A,B,C)
+   se A<B então
+      se B<C então
+         escreva(A,B,C)
+      senão
+         se C<A então
+            escreva (C,A,B)
+         senão
+            escreva (A,C,B)
+         senão
+            escreva(A,C,B)
+         fimse
+      fimse
+      
+   senão
+   se A<C então
+         escreva (B,A,C)
+      senão
+
+         se C<B então
+            escreva(C,B,A)
+         senão
+
+         fimse
+      fimse
+   fimse
+
+
+
+
+fimalgoritmo
