@@ -1,0 +1,12 @@
+algoritmo "pratica 1"
+var
+   NOME:caractere
+
+inicio
+
+   escreva ("Digite seu nome aqui: ")
+   leia(NOME)
+   NOME <- "Sr. " + NOME
+   escreva (NOME)
+
+fimalgoritmo
